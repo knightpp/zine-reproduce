@@ -1,0 +1,24 @@
+Multilingual {
+    .host_url = "https://production",
+    .i18n_dir_path = "i18n",
+    .layouts_dir_path = "layouts",
+    .assets_dir_path = "assets",
+    .static_assets = [
+        "Temml.woff2",
+    ],
+    .locales = [
+        {
+            .code = "en-UK",
+            .name = "English (translated)",
+            .site_title = "English version",
+            .content_dir_path = "content/en-UK",
+            .output_prefix_override = "",
+        },
+        {
+            .code = "uk-UA",
+            .name = "Ukrainian (original)",
+            .site_title = "Ukrainian version",
+            .content_dir_path = "content/uk-UA",
+        },
+    ],
+}
